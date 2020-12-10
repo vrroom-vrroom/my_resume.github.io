@@ -36,7 +36,6 @@ h1, h2, h3, h4, h5, h6 {
     border-image: linear-gradient(to right top, #402C84, skyblue, #402C84);
     border-image-slice: 1;
     border-radius: 2px;
-    transition: all 0.4s linear;
 }
 
 .circle{
@@ -46,7 +45,6 @@ h1, h2, h3, h4, h5, h6 {
     left: -5px;
     border: 0px solid;
     border-radius: 10px;
-    transition: all 0.7s linear;
     background: linear-gradient(to top, #87CEEB, #402C84);
 }
 

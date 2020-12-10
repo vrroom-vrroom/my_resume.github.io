@@ -1,25 +1,23 @@
 $(document).ready(function(){
         $(".slide-one").owlCarousel({
-        
+        center: true,
         loop:true,
-        margin: 10,
-        autoplay:true, //Автозапуск слайдера
+        autoplay:false, //Автозапуск слайдера
         smartSpeed:2000, //Время движения слайда
         autoplayTimeout:4000, //Время смены слайда
         responsive:{
-            460:{
-                items: 2
+            1:{
+                items: 2,
+                margin: 20,
             },
-            700:{
-                items: 3
+            430:{
+                items: 3,
+                margin: 50,
             },
-            1260:{
-                items: 4
-            },
-            2200:{
-                items: 5
-            },
-
+            760:{
+                items: 4,
+                margin: 50,
+            }
         }
     });
         $(".slide-two").owlCarousel({
@@ -27,7 +25,7 @@ $(document).ready(function(){
         loop:true,
         autoplay:true, //Автозапуск слайдера
         smartSpeed:2000, //Время движения слайда
-        autoplayTimeout:4000, //Время смены слайда
+        autoplayTimeout:10000, //Время смены слайда
     });
 });
 

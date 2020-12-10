@@ -325,7 +325,7 @@ a{
 
 .box__2{
 	position: absolute;
-	width: 355px;
+	width: 320px;
 	top: 260px;
 	left: 0;
 }
@@ -341,21 +341,21 @@ a{
 	position: absolute;
 	width: 351px;
 	top: 70px;
-	right: 65px;
+	right: 20px;
 }
 
 .box__5{
 	position: absolute;
-	width: 350px;
+	width: 300px;
 	top: 260px;
 	right: 0px;
 }
 
 .box__6{
 	position: absolute;
-	width: 350px;
+	width: 330px;
 	top: 470px;
-	right: 65px;
+	right: 40px;
 }
 
 
@@ -412,7 +412,8 @@ So a 4px border would be 1.73*h - 8px = w.
 }
 
  */
-
+ 
+ /* Что мы производим */
 .section--produce{
 	background: url("../img/producebckg.jpg") center no-repeat;
 	background-color: #F8E1AD;
@@ -420,7 +421,7 @@ So a 4px border would be 1.73*h - 8px = w.
 }
 
 .produce{
-	margin: 80px 0 0;
+	margin: 40px 0 0;
 
 	position: relative;
 	display: flex;
@@ -453,7 +454,6 @@ So a 4px border would be 1.73*h - 8px = w.
 	transform: scaleX(-1);
 	animation: bees1 3.7s linear infinite;
 }
-
 
 .bees__2{
 	width: 80px;
@@ -499,7 +499,7 @@ So a 4px border would be 1.73*h - 8px = w.
 }
 
 .product{
-	margin: 50px 15px;
+	margin: 50px 0px;
 	width: 300px;
 	transition: 0.4s linear;
 	background: linear-gradient(0deg, #F8F7F0, #F8F7F0);
@@ -872,7 +872,7 @@ So a 4px border would be 1.73*h - 8px = w.
 
 	/* Intro */
 	.intro__title{
-		font-size: 40px;
+		font-size: 35px;
 		margin: 20px 0px;
 	}
 
@@ -889,41 +889,92 @@ So a 4px border would be 1.73*h - 8px = w.
 	/* Section */
 
 	.section{
-		padding: 60px 0px;
+		padding: 40px 0px;
 	}
 
 	.section__title {
-		font-size: 25px;
+		font-size: 22px;
 	}
 
+
+	/* Section Полезные свойства мёда */
+
 	.section__box__subtitle {
-    font-size: 17px;
-    line-height: 20px;
+    	font-size: 17px;
+    	line-height: 20px;
 	}
 
 	.section__box__text {
-    font-size: 13px;
-    line-height: 17px;
+    	font-size: 13px;
+    	line-height: 17px;
 	}
 
 	.img__girl{
-	width: 400px;
+		width: 350px;
 	}
 
-	.box__2 {
-	width: 295px;
+	.box__1{
+		width: 350px;
+		top: 60px;
+		left: 55px;
+		}
+
+	.box__2{
+		width: 300px;
+		top: 260px;
+		left: 0;
 	}
 
-	.box__4 {
-	width: 295px;
+	.box__3{
+		width: 350px;
+		top: 450px;
+		left: 79px;
 	}
 
-	.box__5 {
-	width: 295px;
+	.box__4{
+		width: 351px;
+		top: 70px;
+		right: 20px;
+	}
+
+	.box__5{
+		width: 300px;
+		top: 260px;
+		right: 0px;
+	}
+
+	.box__6{
+		width: 330px;
+		top: 470px;
+		right: 40px;
 	}
 
 
-	/* shipping Доставка и оплата */
+	/* Что мы производим */
+	.bees__1{
+	    left: 0px;
+	}
+
+	.bees__2{
+		left: 430px;
+	}
+
+	.bees__3{
+	    right: 30px;
+	}
+
+	/* Виды мёда */
+	.product{
+		width: 250px;
+	}
+
+	/* Section feedback */
+	.section--feedback {
+		padding-top: 100px;
+	}
+
+
+	/* Shipping Доставка и оплата */
 	.shipping__suptitle{
 	margin: 20px 0px 70px;
 
@@ -945,6 +996,12 @@ So a 4px border would be 1.73*h - 8px = w.
 
 @media screen and (max-width: 990px) {
 
+
+	/*nav*/
+	.nav__link{
+	margin: 0 5px;
+	}
+
 	/* Intro */
 	.intro__title{
 		font-size: 30px;
@@ -962,29 +1019,85 @@ So a 4px border would be 1.73*h - 8px = w.
 	}
 
 	/* Section */
-	.section_box {
-	min-height: 590px;
-	position: relative;
-	display: block;
+
+	.section__title {
+	font-size: 22px;
 	}
 
-	.box__1, .box__2, .box__3, .box__4, .box__5, .box__6 {
-		position: static;
-		width: 100%;
+	.section__box__subtitle {
+    font-size: 17px;
+    line-height: 20px;
 	}
+
+	.section__box__text {
+    font-size: 13px;
+    line-height: 17px;
+	}
+
+	.img__girl{
+	width: 350px;
+	}
+
+	.box__1{
+		width: 270px;
+		top: 40px;
+		left: 25px;
+	}
+
+	.box__2{
+		width: 220px;
+		top: 230px;
+	}
+
+	.box__3{
+		width: 215px;
+		top: 410px;
+		left: 20px;
+	}
+
+	.box__4{
+		width: 250px;
+		top: 40px;
+		right: 35px;
+	}
+
+	.box__5{
+		width: 170px;
+		top: 220px;
+		right: 0px;
+	}
+
+	.box__6{
+		width: 200px;
+		top: 440px;
+		right: 35px;
+	}
+
+
+	/* Что мы производим */
 
 	.produce__img{
 		width: 150px;
 	}
 
 
+	/* Виды мёда */
+	.product{
+		width: 200px;
+	}
+
+	/*section feedback*/
+	.section--feedback {
+		padding-top: 100px;
+	}
+
 }
 
 @media screen and (max-width: 770px) {
 
-	/* Body */
-	body{
-		background-size: auto;
+	/* Container */
+	.container{
+		padding: 0 40px;
 	}
 
 	/* Intro */
@@ -1022,10 +1135,103 @@ So a 4px border would be 1.73*h - 8px = w.
     .nav-toggle {
         display: block;
     }
+
+
+
+	/* Полезные свойства мёда*/
+	.section_box {
+		display: flex;
+		flex-flow: column;
+	}
+
+	.box__1, .box__2, .box__3, .box__4, .box__5, .box__6 {
+		position: static;
+		width: 100%;
+	}
+
+	.img__girl{
+		width: 300px;
+	}
+
+	/* Что мы производим */
+
+	.produce__img{
+		width: 120px;
+	}
+
+	.bees__1{
+		width: 60px;
+		top: -40px;
+		left: 0px;
+	}
+
+	.bees__2{
+		width: 60px;
+	    top: -15px;
+	    left: 240px;
+	}
+
+	.bees__3{
+		width: 60px;
+		top: -30px;
+		right: 10px;
+	}
+
+
+
+	/* Виды мёда */
+	.product{
+		margin: 40px 0px;
+		width: 170px;
+	}
+
+	.prod__img{
+		margin-bottom: 5px;
+	}
+	.prod__text{
+		font-size: 18px;
+	}
+
 }
 
 @media screen and (max-width: 575px) {
 
+	/* Container */
+	.container{
+	padding: 0px 20px;
+	}
+
+	/* Section */
+	.section{
+		padding: 20px 0;
+	}
+
+	.section__title {
+		font-size: 16px;
+	}
+
+	/* Что мы производим */
+	.produce{
+		flex-wrap: wrap;
+	}
+
+	.bees__1{
+		width: 60px;
+		top: -40px;
+		left: 0px;
+	}
+
+	.bees__2{
+		width: 60px;
+	    top: -40px;
+	    left: 260px;
+	}
+
+	.bees__3{
+		width: 60px;
+		top: 210px;
+		right: 0px;
+	}
 }
 
 /*@media screen and (max-width: 320px) {
