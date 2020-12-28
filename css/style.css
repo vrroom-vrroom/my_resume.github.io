@@ -19,45 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 	max-width: 1100px;
 	margin: 0px auto;
 	display: flex;
-	border: 5px solid;
-	border-radius: 20px;
-	border-image: linear-gradient(to right top, #402C84, skyblue, #402C84);
-    border-image-slice: 1;
 
     position: relative;
-}
-
-.line{
-	position: relative;
-	height: inherit;
-    margin-top: 270px;
-    margin-bottom: 35px;
-    border-right: 4px solid;
-    border-image: linear-gradient(to right top, #402C84, skyblue, #402C84);
-    border-image-slice: 1;
-    border-radius: 2px;
-}
-
-.circle{
-	position: absolute;
-	width: 14px;
-	height: 14px;
-    left: -5px;
-    border: 0px solid;
-    border-radius: 10px;
-    background: linear-gradient(to top, #87CEEB, #402C84);
-}
-
-.circle__2{
-	top: 127px;
-}
-
-.circle__3{
-	top: 357px;
-}
-
-.circle__4{
-	top: 100%;
 }
 
 
@@ -88,10 +51,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact, .languages, .education, .certificates, .about, .summary, .skills{
 	margin: 20px 0px;
+	box-shadow: 0px 0px 60px 1px rgba(0,0,0,0.10);
+	padding: 1px 0;
 }
 
 .item{
-	margin: 10px 15px;
+	margin: 15px 15px;
 }
 
 .item i{
@@ -219,6 +184,11 @@ h1, h2, h3, h4, h5, h6 {
 .p3 {
   background-image: linear-gradient(150deg, transparent 50%, steelblue 50%),
                     linear-gradient(90deg, #ddd 50%, steelblue 50%);
+}
+
+/* Portfolio */
+
+.lists{
 }
 
 
