@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 120px;
 }
 
-.contact, .languages, .education, .certificates, .about, .summary, .skills{
+.contact, .languages, .education, .certificates, .about, .summary, .skills, .portfolio{
 	margin: 20px 0px;
 	box-shadow: 0px 0px 60px 1px rgba(0,0,0,0.10);
 	padding: 1px 0;
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .summary{
-	height: 100px;
+	
 }
 
 .subtitle__summary{
@@ -202,10 +202,6 @@ h1, h2, h3, h4, h5, h6 {
 		top: 397px;
 	}
 
-	.summary {
-	    height: 140px;
-	}
-
 	.subtitle__skils {
 		width: 92%;
 		justify-content: center;
@@ -222,6 +218,19 @@ h1, h2, h3, h4, h5, h6 {
 	.sidebar, .contant{
 		width: 100%;
 		max-width: 650px;
+	}
+
+	.sidebar{
+		padding: 20px 20px 0px;
+	}
+
+	.contant{
+		padding: 0px 20px 20px;
+	}
+
+
+	.aboutme{
+		display: none;
 	}
 
 	.line{
