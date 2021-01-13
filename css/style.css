@@ -161,9 +161,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .subtitle__skils{
-	width: 70%;
 	display: flex;
-	align-items: center;
+	justify-content: center;
 }
 
 .box{
@@ -218,10 +217,12 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 0px 0px 60px 1px rgba(0,0,0,0.10);
 	margin:  1rem 1rem 0rem;
 	transition: .5s linear;
+	padding-bottom: 1rem;
 }
 
 .lists:last-child{
 	margin: 1rem 1rem 1rem;
+	padding: 1rem 0rem;
 }
 
 .lists:hover{
@@ -251,10 +252,6 @@ h1, h2, h3, h4, h5, h6 {
 
 	.circle__3{
 		top: 397px;
-	}
-
-	.subtitle__skils {
-		justify-content: center;
 	}
 
 
