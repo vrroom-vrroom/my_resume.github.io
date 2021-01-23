@@ -10,16 +10,6 @@ a{
 	text-decoration: none;
 }
 
-.page-wrapper{
-	margin: 0 auto;
-}
-
-#section-one{
-	max-width: 2400px;
-	background-color: #F3F8FC;
-	border: 1px solid #F3F8FC;
-	border-radius: 40px 40px 552px 40px / 40px 40px 83px 40px;
-}
 /* header */
 
 header{
@@ -30,6 +20,17 @@ header{
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
+}
+
+.btn-blue{
+	background: #2CA4F7;
+	padding: 10px 25px;
+	border-radius: 19px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
 }
 
 .navbar{
@@ -53,6 +54,10 @@ header{
 	justify-content: inherit;
 }
 
+#navbarNav ul{
+	margin-left: 3%;
+}
+
 #navbarNav button{
 	border: 1px solid;
 	border-radius: 30px;
@@ -65,6 +70,14 @@ header{
 
 #navbarNav button:last-child{
 	margin: 0rem 0.3rem;
+}
+
+/* Section head*/
+
+#section-head{
+	margin-bottom: 4rem;
+	background-color: #F3F8FC;
+	border-radius: 40px 40px 552px 40px / 40px 40px 83px 40px;
 }
 
 .left-header{
@@ -102,9 +115,87 @@ header{
 	margin: 0.5rem 0rem;
 }
 
-.col-sm img{
+.right-header img{
 	width: 95%;
 }
+
+
+h2{
+	font-weight: 300;
+	font-size: 45px;
+	line-height: 54px;
+	letter-spacing: 0.02em;
+	color: #161D38;
+}
+
+h2 b{
+	font-weight: 700;
+}
+
+h4{
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 35px;
+	letter-spacing: 0.02em;
+	color: #161D38;
+}
+
+.grey-text{
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #737788;
+}
+
+.grey-text-b{
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	color: #737788;
+}
+
+.know-more{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #2CA4F7;
+}
+
+.contant{
+	background: #F3F8FC;
+	width: 176px;
+	height: 176px;
+	border-radius: 100px;
+}
+
+.contant img{
+	width: auto;
+}
+
+/* Our services*/
+
+#our-services{
+	background: url("../img/our-services bg.jpg") no-repeat;
+}
+
+.numb{
+	width: 46px;
+	height: 46px;
+	border-radius: 50px;
+	background: #D0E1F6;
+}
+
+.numb p{
+	padding: 10px 19px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.02em;
+	color: #095FD2;
+}
+
 @media (max-width: 1400px){
 .nav-item {
 	margin: 0rem 0.8rem;
