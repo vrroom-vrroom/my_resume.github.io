@@ -17,10 +17,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 /* Header */
 
 .header{
-	margin: 1rem auto 0rem;
+	margin:auto;
 	max-width: 1100px;
 	display: flex;
 	justify-content: space-around;
@@ -81,22 +82,43 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Icon a social net */
 .social{
-	width: 70%;
-	margin: 0 auto;
+	padding: 0;
+	list-style: none;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: space-evenly;
+}
+
+.social li{
+	display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.social a{
+	background: #b0b7bf;
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	border-radius: 50%;
+	background-clip: padding-box;
+	color: #fff;
+	text-align: center;
+}
+
+.social a:hover {
+    background: #778492;
+    -webkit-transition: all 0.4s;
+}
+
+.social i, img{
+	width: 25px;
+	font-size: 25px;
+	padding-top: 6px;
 }
 
 .social img{
-	width: 50%;
+	color: #fff;
 }
-
-.social img:hover{
-	width: 55%;
-	transition: .4s linear;
-}
-
 
 /* languages */
 .title{
@@ -142,6 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .name, .spec{
+	text-align: center;
 	margin: 10px;
 	font-size: 20px;
 	transition: 0.4s linear;
